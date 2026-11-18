@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1500" height="500" viewBox="0 0 1500 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14112b"/>
+      <stop offset="1" stop-color="#0b0a1a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff7eb6"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff7eb6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff7eb6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  <rect width="1500" height="500" fill="url(#dots)"/>
+  <circle cx="1270" cy="110" r="330" fill="url(#glow2)"/>
+  <circle cx="1080" cy="430" r="260" fill="url(#glow1)"/>
+
+
+  <!-- left text -->
+  <g font-family="Poppins">
+    <text x="90" y="135" font-size="22" font-weight="500" fill="#ff9ec8" letter-spacing="4">HELLO, I'M</text>
+    <text x="86" y="215" font-size="74" font-weight="700" fill="#ffffff">Naura Taqiyya Mazi</text>
+    <rect x="90" y="238" width="120" height="6" rx="3" fill="url(#accent)"/>
+    <text x="90" y="292" font-size="28" font-weight="500" fill="#e4e1ff">Informatics Engineering Student · ITS Surabaya</text>
+    <text x="90" y="332" font-size="21" font-weight="400" fill="#a9a6cc">Software Development  ·  AI Engineering  ·  Information Security  ·  Databases</text>
+  </g>
+
+  <!-- contact row -->
+  <g font-family="Poppins" font-size="18" fill="#d8d5f5">
+    <g transform="translate(90 390)">
+      <rect width="220" height="46" rx="23" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+      <rect x="16" y="12" width="22" height="22" rx="6" fill="none" stroke="#ff9ec8" stroke-width="2.2"/>
+      <circle cx="27" cy="23" r="5" fill="none" stroke="#ff9ec8" stroke-width="2.2"/>
+      <text x="50" y="29">@naurataqqiya</text>
+    </g>
+    <g transform="translate(326 390)">
+      <rect width="270" height="46" rx="23" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+      <rect x="16" y="12" width="22" height="22" rx="5" fill="#a78bfa"/>
+      <text x="20.5" y="29.5" font-size="14" font-weight="700" fill="#14112b">in</text>
+      <text x="50" y="29">naura-taqiyya-mazi</text>
+    </g>
+    <g transform="translate(612 390)">
+      <rect width="352" height="46" rx="23" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+      <rect x="16" y="14" width="24" height="18" rx="3" fill="none" stroke="#ff9ec8" stroke-width="2.2"/>
+      <path d="M17 16 L28 25 L39 16" fill="none" stroke="#ff9ec8" stroke-width="2.2"/>
+      <text x="52" y="29" font-size="17">naurataqiyyamazzi@gmail.com</text>
+    </g>
+  </g>
+</svg>
